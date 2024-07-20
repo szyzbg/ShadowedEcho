@@ -1,13 +1,15 @@
+# Shadowed Echo
+**Developers**  
+贺如也 
+肖涵曦  
+蒋怀德 
+史卓宇 
 These are the final games we built in Fall Quarter 2024. All games are built with Unity2D. Please refer to each game posting on what additional installations are required to play the games.
 
 ![](https://github.com/szyzbg/ShadowedEcho/blob/master/SWS3007_03.png?raw=true)  
-**Developers**  
-He Ruye  
-Xiao Hanxi  
-Jiang Huaide  
-Shi Zhuoyu  
+ 
 
-**Shadowed Echo**
+
 
 Shadowed Echo represents an unconventional approach to the parkour genre.
 
