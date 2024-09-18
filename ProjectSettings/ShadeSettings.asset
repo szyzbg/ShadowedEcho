@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK0|ZzVo.love@xray.com, server: hknat.0d00.org, port: 21143, type: vmess, uuid: f925ff80-85bc-4883-ce35-e05e91fa97bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: HK0|ZzVo.love@xray.com, server: hknat.0d00.org, port: 21143, type: vmess, uuid: f925ff80-85bc-4883-ce35-e05e91fa97bd, alterId: 0, cipher: auto, tls: false, udp: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
