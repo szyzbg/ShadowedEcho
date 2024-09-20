@@ -6,7 +6,8 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 广港电信, server: 3045.flsq.info, port: 23363, type: vmess, uuid: bb845fb6-d613-488c-c43f-3fb215b40ab8, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 越南, server: 3045.flsq.info, port: 23364, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 香港, server: 3045.flsq.info, port: 23364, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 越南, server: 3045.flsq.info, port: 23365, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -14,6 +15,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 广港电信
+      - 香港
       - 越南
   - name: ♻️ 自动选择
     type: url-test
@@ -21,6 +23,7 @@ proxy-groups:
     interval: 300
     proxies:
       - 广港电信
+      - 香港
       - 越南
   - name: 🎥 NETFLIX
     type: select
@@ -29,6 +32,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 广港电信
+      - 香港
       - 越南
   - name: ⛔️ 广告拦截
     type: select
@@ -49,12 +53,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 广港电信
+      - 香港
       - 越南
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 广港电信
+      - 香港
       - 越南
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -63,6 +69,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 广港电信
+      - 香港
       - 越南
   - name: 📲 电报信息
     type: select
@@ -70,6 +77,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - 广港电信
+      - 香港
       - 越南
   - name: 🍎 苹果服务
     type: select
@@ -78,6 +86,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 广港电信
+      - 香港
       - 越南
   - name: 🎯 全球直连
     type: select
@@ -95,6 +104,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 广港电信
+      - 香港
       - 越南
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
