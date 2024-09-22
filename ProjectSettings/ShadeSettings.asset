@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 广港电信, server: 3045.flsq.info, port: 23363, type: vmess, uuid: bb845fb6-d613-488c-c43f-3fb215b40ab8, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 香港, server: 3045.flsq.info, port: 23364, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 越南, server: 3045.flsq.info, port: 23365, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 日本, server: 3045.flsq.info, port: 23366, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}  
@@ -16,7 +15,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港电信
       - 香港
       - 越南
       - 日本
@@ -26,7 +24,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 广港电信
       - 香港
       - 越南
       - 日本
@@ -37,7 +34,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港电信
       - 香港
       - 越南
       - 日本
@@ -60,7 +56,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港电信
       - 香港
       - 越南
       - 日本
@@ -69,7 +64,6 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 广港电信
       - 香港
       - 越南
       - 日本
@@ -80,7 +74,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 广港电信
       - 香港
       - 越南
       - 日本
@@ -90,7 +83,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 广港电信
       - 香港
       - 越南
       - 日本
@@ -101,7 +93,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 广港电信
       - 香港
       - 越南
       - 日本
@@ -121,7 +112,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 广港电信
       - 香港
       - 越南
       - 日本
