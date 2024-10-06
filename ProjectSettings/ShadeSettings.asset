@@ -7,6 +7,7 @@ external-controller: :9090
 proxies:
   - {name: 香港, server: 110.40.75.138, port: 27643, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 越南, server: 110.40.75.138, port: 27644, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 日本, server: 110.40.75.138, port: 27645, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -15,6 +16,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港
       - 越南
+      - 日本
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -22,6 +24,7 @@ proxy-groups:
     proxies:
       - 香港
       - 越南
+      - 日本
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -30,6 +33,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港
       - 越南
+      - 日本
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -50,12 +54,14 @@ proxy-groups:
       - 🎯 全球直连
       - 香港
       - 越南
+      - 日本
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港
       - 越南
+      - 日本
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -64,6 +70,7 @@ proxy-groups:
       - 🔰 节点选择
       - 香港
       - 越南
+      - 日本
   - name: 📲 电报信息
     type: select
     proxies:
@@ -71,6 +78,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港
       - 越南
+      - 日本
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -79,6 +87,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 香港
       - 越南
+      - 日本
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -96,6 +105,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 香港
       - 越南
+      - 日本
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
