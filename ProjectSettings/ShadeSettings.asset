@@ -9,6 +9,7 @@ proxies:
   - {name: 日本, server: 110.40.75.138, port: 27645, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 新加坡, server: 110.40.75.138, port: 27644, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 美国, server: 110.40.75.138, port: 27646, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 德国, server: 110.40.75.138, port: 27647, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -19,6 +20,7 @@ proxy-groups:
       - 日本
       - 新加坡
       - 美国
+      - 德国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
