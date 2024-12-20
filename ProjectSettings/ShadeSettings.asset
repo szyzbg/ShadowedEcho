@@ -17,7 +17,7 @@ dns:
 proxies:
     - {name: HK-Mine, server: 38.150.15.252, port: 443, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
     - {name: TW-Mine, server: lalahinet.0721.in, port: 49806, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
-    - {name: JP-Mine, server: 116.80.82.207, port: 443, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+    - {name: JP-Mine, server: 116.80.82.207, port: 52644, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
     - {name: US-Mine, server: 154.12.40.16, port: 443, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
     - {name: KR-Mine, server: kr.huafei888.site, port: 52377, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
     - { name: '剩余流量：2048 GB', type: ss, server: 1.1.1.1, port: 53, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
