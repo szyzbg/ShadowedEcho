@@ -16,7 +16,7 @@ dns:
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
     - {name: HK-Mine, server: 38.150.15.252, port: 443, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
-    - {name: DE-Mine, server: 77.90.7.5, port: 49193, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+    - {name: DE-Mine, server: 5.181.177.9, port: 58902, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
     - {name: TW-Mine, server: lalahinet.0721.in, port: 49806, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
     - {name: JP-Mine, server: 116.80.82.207, port: 52644, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
     - {name: US-Mine, server: 154.12.40.16, port: 443, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
