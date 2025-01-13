@@ -1,736 +1,616 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!129 &1
-PlayerSettings:
-  m_ObjectHideFlags: 0
-  serializedVersion: 26
-  productGUID: 346665d1a4d9dde4bab0bd2764526caf
-  AndroidProfiler: 0
-  AndroidFilterTouchesWhenObscured: 0
-  AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
-  targetDevice: 2
-  useOnDemandResources: 0
-  accelerometerFrequency: 60
-  companyName: DDNB
-  productName: Shadowed Echo
-  defaultCursor: {fileID: 0}
-  cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
-  m_ShowUnitySplashScreen: 1
-  m_ShowUnitySplashLogo: 1
-  m_SplashScreenOverlayOpacity: 1
-  m_SplashScreenAnimation: 1
-  m_SplashScreenLogoStyle: 1
-  m_SplashScreenDrawMode: 0
-  m_SplashScreenBackgroundAnimationZoom: 1
-  m_SplashScreenLogoAnimationZoom: 1
-  m_SplashScreenBackgroundLandscapeAspect: 1
-  m_SplashScreenBackgroundPortraitAspect: 1
-  m_SplashScreenBackgroundLandscapeUvs:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  m_SplashScreenBackgroundPortraitUvs:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: b6813f6923eefb34f9ce14b58fea50ec, type: 3}
-    duration: 2
-  - logo: {fileID: 21300000, guid: 65557c25ff9b22348a05eb80aa2f19a5, type: 3}
-    duration: 2
-  m_VirtualRealitySplashScreen: {fileID: 0}
-  m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1920
-  defaultScreenHeight: 1080
-  defaultScreenWidthWeb: 1280
-  defaultScreenHeightWeb: 720
-  m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 1
-  unsupportedMSAAFallback: 0
-  m_SpriteBatchVertexThreshold: 300
-  m_MTRendering: 1
-  mipStripping: 0
-  numberOfMipsStripped: 0
-  numberOfMipsStrippedPerMipmapLimitGroup: {}
-  m_StackTraceTypes: 010000000100000001000000010000000100000001000000
-  iosShowActivityIndicatorOnLoading: -1
-  androidShowActivityIndicatorOnLoading: -1
-  iosUseCustomAppBackgroundBehavior: 0
-  allowedAutorotateToPortrait: 1
-  allowedAutorotateToPortraitUpsideDown: 1
-  allowedAutorotateToLandscapeRight: 1
-  allowedAutorotateToLandscapeLeft: 1
-  useOSAutorotation: 1
-  use32BitDisplayBuffer: 1
-  preserveFramebufferAlpha: 0
-  disableDepthAndStencilBuffers: 0
-  androidStartInFullscreen: 1
-  androidRenderOutsideSafeArea: 1
-  androidUseSwappy: 1
-  androidBlitType: 0
-  androidResizableWindow: 0
-  androidDefaultWindowWidth: 1920
-  androidDefaultWindowHeight: 1080
-  androidMinimumWindowWidth: 400
-  androidMinimumWindowHeight: 300
-  androidFullscreenMode: 1
-  androidAutoRotationBehavior: 1
-  defaultIsNativeResolution: 1
-  macRetinaSupport: 1
-  runInBackground: 0
-  captureSingleScreen: 0
-  muteOtherAudioSources: 0
-  Prepare IOS For Recording: 0
-  Force IOS Speakers When Recording: 0
-  deferSystemGesturesMode: 0
-  hideHomeButton: 0
-  submitAnalytics: 1
-  usePlayerLog: 1
-  dedicatedServerOptimizations: 0
-  bakeCollisionMeshes: 0
-  forceSingleInstance: 0
-  useFlipModelSwapchain: 1
-  resizableWindow: 0
-  useMacAppStoreValidation: 0
-  macAppStoreCategory: public.app-category.games
-  gpuSkinning: 0
-  xboxPIXTextureCapture: 0
-  xboxEnableAvatar: 0
-  xboxEnableKinect: 0
-  xboxEnableKinectAutoTracking: 0
-  xboxEnableFitness: 0
-  visibleInBackground: 1
-  allowFullscreenSwitch: 1
-  fullscreenMode: 3
-  xboxSpeechDB: 0
-  xboxEnableHeadOrientation: 0
-  xboxEnableGuest: 0
-  xboxEnablePIXSampling: 0
-  metalFramebufferOnly: 0
-  xboxOneResolution: 0
-  xboxOneSResolution: 0
-  xboxOneXResolution: 3
-  xboxOneMonoLoggingLevel: 0
-  xboxOneLoggingLevel: 1
-  xboxOneDisableEsram: 0
-  xboxOneEnableTypeOptimization: 0
-  xboxOnePresentImmediateThreshold: 0
-  switchQueueCommandMemory: 1048576
-  switchQueueControlMemory: 16384
-  switchQueueComputeMemory: 262144
-  switchNVNShaderPoolsGranularity: 33554432
-  switchNVNDefaultPoolsGranularity: 16777216
-  switchNVNOtherPoolsGranularity: 16777216
-  switchGpuScratchPoolGranularity: 2097152
-  switchAllowGpuScratchShrinking: 0
-  switchNVNMaxPublicTextureIDCount: 0
-  switchNVNMaxPublicSamplerIDCount: 0
-  switchNVNGraphicsFirmwareMemory: 32
-  switchMaxWorkerMultiple: 8
-  stadiaPresentMode: 0
-  stadiaTargetFramerate: 0
-  vulkanNumSwapchainBuffers: 3
-  vulkanEnableSetSRGBWrite: 0
-  vulkanEnablePreTransform: 0
-  vulkanEnableLateAcquireNextImage: 0
-  vulkanEnableCommandBufferRecycling: 1
-  loadStoreDebugModeEnabled: 0
-  visionOSBundleVersion: 1.0
-  tvOSBundleVersion: 1.0
-  bundleVersion: 1.0
-  preloadedAssets: []
-  metroInputSource: 0
-  wsaTransparentSwapchain: 0
-  m_HolographicPauseOnTrackingLoss: 1
-  xboxOneDisableKinectGpuReservation: 1
-  xboxOneEnable7thCore: 1
-  vrSettings:
-    enable360StereoCapture: 0
-  isWsaHolographicRemotingEnabled: 0
-  enableFrameTimingStats: 0
-  enableOpenGLProfilerGPURecorders: 1
-  allowHDRDisplaySupport: 0
-  useHDRDisplay: 0
-  hdrBitDepth: 0
-  m_ColorGamuts: 00000000
-  targetPixelDensity: 30
-  resolutionScalingMode: 0
-  resetResolutionOnWindowResize: 0
-  androidSupportedAspectRatio: 1
-  androidMaxAspectRatio: 2.1
-  applicationIdentifier:
-    Standalone: com.DefaultCompany.2DProject
-  buildNumber:
-    Standalone: 0
-    VisionOS: 0
-    iPhone: 0
-    tvOS: 0
-  overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 22
-  AndroidTargetSdkVersion: 0
-  AndroidPreferredInstallLocation: 1
-  aotOptions: 
-  stripEngineCode: 1
-  iPhoneStrippingLevel: 0
-  iPhoneScriptCallOptimization: 0
-  ForceInternetPermission: 0
-  ForceSDCardPermission: 0
-  CreateWallpaper: 0
-  APKExpansionFiles: 0
-  keepLoadedShadersAlive: 0
-  StripUnusedMeshComponents: 0
-  strictShaderVariantMatching: 0
-  VertexChannelCompressionMask: 4054
-  iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 12.0
-  tvOSSdkVersion: 0
-  tvOSRequireExtendedGameController: 0
-  tvOSTargetOSVersionString: 12.0
-  VisionOSSdkVersion: 0
-  VisionOSTargetOSVersionString: 1.0
-  uIPrerenderedIcon: 0
-  uIRequiresPersistentWiFi: 0
-  uIRequiresFullScreen: 1
-  uIStatusBarHidden: 1
-  uIExitOnSuspend: 0
-  uIStatusBarStyle: 0
-  appleTVSplashScreen: {fileID: 0}
-  appleTVSplashScreen2x: {fileID: 0}
-  tvOSSmallIconLayers: []
-  tvOSSmallIconLayers2x: []
-  tvOSLargeIconLayers: []
-  tvOSLargeIconLayers2x: []
-  tvOSTopShelfImageLayers: []
-  tvOSTopShelfImageLayers2x: []
-  tvOSTopShelfImageWideLayers: []
-  tvOSTopShelfImageWideLayers2x: []
-  iOSLaunchScreenType: 0
-  iOSLaunchScreenPortrait: {fileID: 0}
-  iOSLaunchScreenLandscape: {fileID: 0}
-  iOSLaunchScreenBackgroundColor:
-    serializedVersion: 2
-    rgba: 0
-  iOSLaunchScreenFillPct: 100
-  iOSLaunchScreenSize: 100
-  iOSLaunchScreenCustomXibPath: 
-  iOSLaunchScreeniPadType: 0
-  iOSLaunchScreeniPadImage: {fileID: 0}
-  iOSLaunchScreeniPadBackgroundColor:
-    serializedVersion: 2
-    rgba: 0
-  iOSLaunchScreeniPadFillPct: 100
-  iOSLaunchScreeniPadSize: 100
-  iOSLaunchScreeniPadCustomXibPath: 
-  iOSLaunchScreenCustomStoryboardPath: 
-  iOSLaunchScreeniPadCustomStoryboardPath: 
-  iOSDeviceRequirements: []
-  iOSURLSchemes: []
-  macOSURLSchemes: []
-  iOSBackgroundModes: 0
-  iOSMetalForceHardShadows: 0
-  metalEditorSupport: 1
-  metalAPIValidation: 1
-  metalCompileShaderBinary: 0
-  iOSRenderExtraFrameOnPause: 0
-  iosCopyPluginsCodeInsteadOfSymlink: 0
-  appleDeveloperTeamID: 
-  iOSManualSigningProvisioningProfileID: 
-  tvOSManualSigningProvisioningProfileID: 
-  VisionOSManualSigningProvisioningProfileID: 
-  iOSManualSigningProvisioningProfileType: 0
-  tvOSManualSigningProvisioningProfileType: 0
-  VisionOSManualSigningProvisioningProfileType: 0
-  appleEnableAutomaticSigning: 0
-  iOSRequireARKit: 0
-  iOSAutomaticallyDetectAndAddCapabilities: 1
-  appleEnableProMotion: 0
-  shaderPrecisionModel: 0
-  clonedFromGUID: 10ad67313f4034357812315f3c407484
-  templatePackageId: com.unity.template.2d@7.0.3
-  templateDefaultScene: Assets/Scenes/SampleScene.unity
-  useCustomMainManifest: 0
-  useCustomLauncherManifest: 0
-  useCustomMainGradleTemplate: 0
-  useCustomLauncherGradleManifest: 0
-  useCustomBaseGradleTemplate: 0
-  useCustomGradlePropertiesTemplate: 0
-  useCustomGradleSettingsTemplate: 0
-  useCustomProguardFile: 0
-  AndroidTargetArchitectures: 1
-  AndroidTargetDevices: 0
-  AndroidSplashScreenScale: 0
-  androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
-  AndroidEnableArmv9SecurityFeatures: 0
-  AndroidBuildApkPerCpuArchitecture: 0
-  AndroidTVCompatibility: 0
-  AndroidIsGame: 1
-  AndroidEnableTango: 0
-  androidEnableBanner: 1
-  androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
-  m_AndroidBanners:
-  - width: 320
-    height: 180
-    banner: {fileID: 0}
-  androidGamepadSupportLevel: 0
-  chromeosInputEmulation: 1
-  AndroidMinifyRelease: 0
-  AndroidMinifyDebug: 0
-  AndroidValidateAppBundleSize: 1
-  AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
-  m_BuildTargetPlatformIcons: []
-  m_BuildTargetBatching: []
-  m_BuildTargetShaderSettings: []
-  m_BuildTargetGraphicsJobs:
-  - m_BuildTarget: MacStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: Switch
-    m_GraphicsJobs: 0
-  - m_BuildTarget: MetroSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: AppleTVSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: BJMSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: LinuxStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: PS4Player
-    m_GraphicsJobs: 0
-  - m_BuildTarget: iOSSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: WindowsStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: XboxOnePlayer
-    m_GraphicsJobs: 0
-  - m_BuildTarget: LuminSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: AndroidPlayer
-    m_GraphicsJobs: 0
-  - m_BuildTarget: WebGLSupport
-    m_GraphicsJobs: 0
-  m_BuildTargetGraphicsJobMode: []
-  m_BuildTargetGraphicsAPIs:
-  - m_BuildTarget: AndroidPlayer
-    m_APIs: 150000000b000000
-    m_Automatic: 1
-  - m_BuildTarget: iOSSupport
-    m_APIs: 10000000
-    m_Automatic: 1
-  m_BuildTargetVRSettings: []
-  m_DefaultShaderChunkSizeInMB: 16
-  m_DefaultShaderChunkCount: 0
-  openGLRequireES31: 0
-  openGLRequireES31AEP: 0
-  openGLRequireES32: 0
-  m_TemplateCustomTags: {}
-  mobileMTRendering:
-    Android: 1
-    iPhone: 1
-    tvOS: 1
-  m_BuildTargetGroupLightmapEncodingQuality: []
-  m_BuildTargetGroupHDRCubemapEncodingQuality: []
-  m_BuildTargetGroupLightmapSettings: []
-  m_BuildTargetGroupLoadStoreDebugModeSettings: []
-  m_BuildTargetNormalMapEncoding: []
-  m_BuildTargetDefaultTextureCompressionFormat:
-  - m_BuildTarget: Android
-    m_Format: 3
-  playModeTestRunnerEnabled: 0
-  runPlayModeTestAsEditModeTest: 0
-  actionOnDotNetUnhandledException: 1
-  enableInternalProfiler: 0
-  logObjCUncaughtExceptions: 1
-  enableCrashReportAPI: 0
-  cameraUsageDescription: 
-  locationUsageDescription: 
-  microphoneUsageDescription: 
-  bluetoothUsageDescription: 
-  macOSTargetOSVersion: 10.13.0
-  switchNMETAOverride: 
-  switchNetLibKey: 
-  switchSocketMemoryPoolSize: 6144
-  switchSocketAllocatorPoolSize: 128
-  switchSocketConcurrencyLimit: 14
-  switchScreenResolutionBehavior: 2
-  switchUseCPUProfiler: 0
-  switchEnableFileSystemTrace: 0
-  switchLTOSetting: 0
-  switchApplicationID: 0x01004b9000490000
-  switchNSODependencies: 
-  switchCompilerFlags: 
-  switchTitleNames_0: 
-  switchTitleNames_1: 
-  switchTitleNames_2: 
-  switchTitleNames_3: 
-  switchTitleNames_4: 
-  switchTitleNames_5: 
-  switchTitleNames_6: 
-  switchTitleNames_7: 
-  switchTitleNames_8: 
-  switchTitleNames_9: 
-  switchTitleNames_10: 
-  switchTitleNames_11: 
-  switchTitleNames_12: 
-  switchTitleNames_13: 
-  switchTitleNames_14: 
-  switchTitleNames_15: 
-  switchPublisherNames_0: 
-  switchPublisherNames_1: 
-  switchPublisherNames_2: 
-  switchPublisherNames_3: 
-  switchPublisherNames_4: 
-  switchPublisherNames_5: 
-  switchPublisherNames_6: 
-  switchPublisherNames_7: 
-  switchPublisherNames_8: 
-  switchPublisherNames_9: 
-  switchPublisherNames_10: 
-  switchPublisherNames_11: 
-  switchPublisherNames_12: 
-  switchPublisherNames_13: 
-  switchPublisherNames_14: 
-  switchPublisherNames_15: 
-  switchIcons_0: {fileID: 0}
-  switchIcons_1: {fileID: 0}
-  switchIcons_2: {fileID: 0}
-  switchIcons_3: {fileID: 0}
-  switchIcons_4: {fileID: 0}
-  switchIcons_5: {fileID: 0}
-  switchIcons_6: {fileID: 0}
-  switchIcons_7: {fileID: 0}
-  switchIcons_8: {fileID: 0}
-  switchIcons_9: {fileID: 0}
-  switchIcons_10: {fileID: 0}
-  switchIcons_11: {fileID: 0}
-  switchIcons_12: {fileID: 0}
-  switchIcons_13: {fileID: 0}
-  switchIcons_14: {fileID: 0}
-  switchIcons_15: {fileID: 0}
-  switchSmallIcons_0: {fileID: 0}
-  switchSmallIcons_1: {fileID: 0}
-  switchSmallIcons_2: {fileID: 0}
-  switchSmallIcons_3: {fileID: 0}
-  switchSmallIcons_4: {fileID: 0}
-  switchSmallIcons_5: {fileID: 0}
-  switchSmallIcons_6: {fileID: 0}
-  switchSmallIcons_7: {fileID: 0}
-  switchSmallIcons_8: {fileID: 0}
-  switchSmallIcons_9: {fileID: 0}
-  switchSmallIcons_10: {fileID: 0}
-  switchSmallIcons_11: {fileID: 0}
-  switchSmallIcons_12: {fileID: 0}
-  switchSmallIcons_13: {fileID: 0}
-  switchSmallIcons_14: {fileID: 0}
-  switchSmallIcons_15: {fileID: 0}
-  switchManualHTML: 
-  switchAccessibleURLs: 
-  switchLegalInformation: 
-  switchMainThreadStackSize: 1048576
-  switchPresenceGroupId: 
-  switchLogoHandling: 0
-  switchReleaseVersion: 0
-  switchDisplayVersion: 1.0.0
-  switchStartupUserAccount: 0
-  switchSupportedLanguagesMask: 0
-  switchLogoType: 0
-  switchApplicationErrorCodeCategory: 
-  switchUserAccountSaveDataSize: 0
-  switchUserAccountSaveDataJournalSize: 0
-  switchApplicationAttribute: 0
-  switchCardSpecSize: -1
-  switchCardSpecClock: -1
-  switchRatingsMask: 0
-  switchRatingsInt_0: 0
-  switchRatingsInt_1: 0
-  switchRatingsInt_2: 0
-  switchRatingsInt_3: 0
-  switchRatingsInt_4: 0
-  switchRatingsInt_5: 0
-  switchRatingsInt_6: 0
-  switchRatingsInt_7: 0
-  switchRatingsInt_8: 0
-  switchRatingsInt_9: 0
-  switchRatingsInt_10: 0
-  switchRatingsInt_11: 0
-  switchRatingsInt_12: 0
-  switchLocalCommunicationIds_0: 
-  switchLocalCommunicationIds_1: 
-  switchLocalCommunicationIds_2: 
-  switchLocalCommunicationIds_3: 
-  switchLocalCommunicationIds_4: 
-  switchLocalCommunicationIds_5: 
-  switchLocalCommunicationIds_6: 
-  switchLocalCommunicationIds_7: 
-  switchParentalControl: 0
-  switchAllowsScreenshot: 1
-  switchAllowsVideoCapturing: 1
-  switchAllowsRuntimeAddOnContentInstall: 0
-  switchDataLossConfirmation: 0
-  switchUserAccountLockEnabled: 0
-  switchSystemResourceMemory: 16777216
-  switchSupportedNpadStyles: 22
-  switchNativeFsCacheSize: 32
-  switchIsHoldTypeHorizontal: 0
-  switchSupportedNpadCount: 8
-  switchEnableTouchScreen: 1
-  switchSocketConfigEnabled: 0
-  switchTcpInitialSendBufferSize: 32
-  switchTcpInitialReceiveBufferSize: 64
-  switchTcpAutoSendBufferSizeMax: 256
-  switchTcpAutoReceiveBufferSizeMax: 256
-  switchUdpSendBufferSize: 9
-  switchUdpReceiveBufferSize: 42
-  switchSocketBufferEfficiency: 4
-  switchSocketInitializeEnabled: 1
-  switchNetworkInterfaceManagerInitializeEnabled: 1
-  switchUseNewStyleFilepaths: 0
-  switchUseLegacyFmodPriorities: 0
-  switchUseMicroSleepForYield: 1
-  switchEnableRamDiskSupport: 0
-  switchMicroSleepForYieldTime: 25
-  switchRamDiskSpaceSize: 12
-  ps4NPAgeRating: 12
-  ps4NPTitleSecret: 
-  ps4NPTrophyPackPath: 
-  ps4ParentalLevel: 11
-  ps4ContentID: ED1633-NPXX51362_00-0000000000000000
-  ps4Category: 0
-  ps4MasterVersion: 01.00
-  ps4AppVersion: 01.00
-  ps4AppType: 0
-  ps4ParamSfxPath: 
-  ps4VideoOutPixelFormat: 0
-  ps4VideoOutInitialWidth: 1920
-  ps4VideoOutBaseModeInitialWidth: 1920
-  ps4VideoOutReprojectionRate: 60
-  ps4PronunciationXMLPath: 
-  ps4PronunciationSIGPath: 
-  ps4BackgroundImagePath: 
-  ps4StartupImagePath: 
-  ps4StartupImagesFolder: 
-  ps4IconImagesFolder: 
-  ps4SaveDataImagePath: 
-  ps4SdkOverride: 
-  ps4BGMPath: 
-  ps4ShareFilePath: 
-  ps4ShareOverlayImagePath: 
-  ps4PrivacyGuardImagePath: 
-  ps4ExtraSceSysFile: 
-  ps4NPtitleDatPath: 
-  ps4RemotePlayKeyAssignment: -1
-  ps4RemotePlayKeyMappingDir: 
-  ps4PlayTogetherPlayerCount: 0
-  ps4EnterButtonAssignment: 2
-  ps4ApplicationParam1: 0
-  ps4ApplicationParam2: 0
-  ps4ApplicationParam3: 0
-  ps4ApplicationParam4: 0
-  ps4DownloadDataSize: 0
-  ps4GarlicHeapSize: 2048
-  ps4ProGarlicHeapSize: 2560
-  playerPrefsMaxSize: 32768
-  ps4Passcode: bi9UOuSpM2Tlh01vOzwvSikHFswuzleh
-  ps4pnSessions: 1
-  ps4pnPresence: 1
-  ps4pnFriends: 1
-  ps4pnGameCustomData: 1
-  playerPrefsSupport: 0
-  enableApplicationExit: 0
-  resetTempFolder: 1
-  restrictedAudioUsageRights: 0
-  ps4UseResolutionFallback: 0
-  ps4ReprojectionSupport: 0
-  ps4UseAudio3dBackend: 0
-  ps4UseLowGarlicFragmentationMode: 1
-  ps4SocialScreenEnabled: 0
-  ps4ScriptOptimizationLevel: 2
-  ps4Audio3dVirtualSpeakerCount: 14
-  ps4attribCpuUsage: 0
-  ps4PatchPkgPath: 
-  ps4PatchLatestPkgPath: 
-  ps4PatchChangeinfoPath: 
-  ps4PatchDayOne: 0
-  ps4attribUserManagement: 0
-  ps4attribMoveSupport: 0
-  ps4attrib3DSupport: 0
-  ps4attribShareSupport: 0
-  ps4attribExclusiveVR: 0
-  ps4disableAutoHideSplash: 0
-  ps4videoRecordingFeaturesUsed: 0
-  ps4contentSearchFeaturesUsed: 0
-  ps4CompatibilityPS5: 0
-  ps4AllowPS5Detection: 0
-  ps4GPU800MHz: 1
-  ps4attribEyeToEyeDistanceSettingVR: 0
-  ps4IncludedModules: []
-  ps4attribVROutputEnabled: 0
-  monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 0}
-  splashScreenBackgroundSourcePortrait: {fileID: 0}
-  blurSplashScreenBackground: 0
-  spritePackerPolicy: 
-  webGLMemorySize: 32
-  webGLExceptionSupport: 1
-  webGLNameFilesAsHashes: 0
-  webGLShowDiagnostics: 0
-  webGLDataCaching: 1
-  webGLDebugSymbols: 0
-  webGLEmscriptenArgs: 
-  webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Default
-  webGLAnalyzeBuildSize: 0
-  webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 0
-  webGLWasmArithmeticExceptions: 0
-  webGLLinkerTarget: 1
-  webGLThreadsSupport: 0
-  webGLDecompressionFallback: 1
-  webGLInitialMemorySize: 32
-  webGLMaximumMemorySize: 2048
-  webGLMemoryGrowthMode: 2
-  webGLMemoryLinearGrowthStep: 16
-  webGLMemoryGeometricGrowthStep: 0.2
-  webGLMemoryGeometricGrowthCap: 96
-  webGLPowerPreference: 2
-  scriptingDefineSymbols:
-    Android: UNITY_POST_PROCESSING_STACK_V2
-    EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2
-    GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2
-    Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2
-    PS4: UNITY_POST_PROCESSING_STACK_V2
-    PS5: UNITY_POST_PROCESSING_STACK_V2
-    QNX: UNITY_POST_PROCESSING_STACK_V2
-    Stadia: UNITY_POST_PROCESSING_STACK_V2
-    Standalone: UNITY_POST_PROCESSING_STACK_V2
-    VisionOS: UNITY_POST_PROCESSING_STACK_V2
-    WebGL: UNITY_POST_PROCESSING_STACK_V2
-    XboxOne: UNITY_POST_PROCESSING_STACK_V2
-    tvOS: UNITY_POST_PROCESSING_STACK_V2
-  additionalCompilerArguments: {}
-  platformArchitecture: {}
-  scriptingBackend: {}
-  il2cppCompilerConfiguration: {}
-  il2cppCodeGeneration: {}
-  managedStrippingLevel:
-    EmbeddedLinux: 1
-    GameCoreScarlett: 1
-    GameCoreXboxOne: 1
-    Nintendo Switch: 1
-    PS4: 1
-    PS5: 1
-    QNX: 1
-    Stadia: 1
-    VisionOS: 1
-    WebGL: 1
-    Windows Store Apps: 1
-    XboxOne: 1
-    iPhone: 1
-    tvOS: 1
-  incrementalIl2cppBuild: {}
-  suppressCommonWarnings: 1
-  allowUnsafeCode: 0
-  useDeterministicCompilation: 1
-  additionalIl2CppArgs: 
-  scriptingRuntimeVersion: 1
-  gcIncremental: 1
-  gcWBarrierValidation: 0
-  apiCompatibilityLevelPerPlatform: {}
-  m_RenderingPath: 1
-  m_MobileRenderingPath: 1
-  metroPackageName: Shadowed Echo 1.1.0
-  metroPackageVersion: 
-  metroCertificatePath: 
-  metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Shadowed Echo 1.1.0
-  wsaImages: {}
-  metroTileShortName: 
-  metroTileShowName: 0
-  metroMediumTileShowName: 0
-  metroLargeTileShowName: 0
-  metroWideTileShowName: 0
-  metroSupportStreamingInstall: 0
-  metroLastRequiredScene: 0
-  metroDefaultTileSize: 1
-  metroTileForegroundText: 2
-  metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
-  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
-  metroSplashScreenUseBackgroundColor: 0
-  syncCapabilities: 0
-  platformCapabilities: {}
-  metroTargetDeviceFamilies: {}
-  metroFTAName: 
-  metroFTAFileTypes: []
-  metroProtocolName: 
-  vcxProjDefaultLanguage: 
-  XboxOneProductId: 
-  XboxOneUpdateKey: 
-  XboxOneSandboxId: 
-  XboxOneContentId: 
-  XboxOneTitleId: 
-  XboxOneSCId: 
-  XboxOneGameOsOverridePath: 
-  XboxOnePackagingOverridePath: 
-  XboxOneAppManifestOverridePath: 
-  XboxOneVersion: 1.0.0.0
-  XboxOnePackageEncryption: 0
-  XboxOnePackageUpdateGranularity: 2
-  XboxOneDescription: 
-  XboxOneLanguage:
-  - enus
-  XboxOneCapability: []
-  XboxOneGameRating: {}
-  XboxOneIsContentPackage: 0
-  XboxOneEnhancedXboxCompatibilityMode: 0
-  XboxOneEnableGPUVariability: 1
-  XboxOneSockets: {}
-  XboxOneSplashScreen: {fileID: 0}
-  XboxOneAllowedProductIds: []
-  XboxOnePersistentLocalStorageSize: 0
-  XboxOneXTitleMemory: 8
-  XboxOneOverrideIdentityName: 
-  XboxOneOverrideIdentityPublisher: 
-  vrEditorSettings: {}
-  cloudServicesEnabled: {}
-  luminIcon:
-    m_Name: 
-    m_ModelFolderPath: 
-    m_PortalFolderPath: 
-  luminCert:
-    m_CertPath: 
-    m_SignPackage: 1
-  luminIsChannelApp: 0
-  luminVersion:
-    m_VersionCode: 1
-    m_VersionName: 
-  hmiPlayerDataPath: 
-  hmiForceSRGBBlit: 1
-  embeddedLinuxEnableGamepadInput: 1
-  hmiLogStartupTiming: 0
-  hmiCpuConfiguration: 
-  apiCompatibilityLevel: 6
-  activeInputHandler: 0
-  windowsGamepadBackendHint: 0
-  cloudProjectId: 
-  framebufferDepthMemorylessMode: 0
-  qualitySettingsNames: []
-  projectName: 
-  organizationId: 
-  cloudEnabled: 0
-  legacyClampBlendShapeWeights: 0
-  hmiLoadingImage: {fileID: 0}
-  platformRequiresReadableAssets: 0
-  virtualTexturingSupportEnabled: 0
-  insecureHttpOption: 0
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+external-controller: '127.0.0.1:9090'
+dns:
+    enable: true
+    ipv6: false
+    default-nameserver: [223.5.5.5, 119.29.29.29]
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
+    fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
+    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+proxies:
+    - {name: HK-Mine, server: 38.22.93.146, port: 34566, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+    - {name: TW-Mine, server: lalahinet.0721.in, port: 49806, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+    - {name: JP-Mine, server: 116.80.82.207, port: 52644, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+    - {name: US-Mine, server: 154.12.40.16, port: 45444, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+    - {name: DE-Mine, server: 213.199.51.149, port: 27142, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+    - {name: KR-Mine, server: kr.huafei888.site, port: 52377, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+    - { name: '剩余流量：2048 GB', type: ss, server: 1.1.1.1, port: 53, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 套餐到期：2025-11-15, type: ss, server: 1.1.1.1, port: 53, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '跳转域名{请勿连接}:nflink.xyz', type: ss, server: 1.1.1.1, port: 53, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '俄罗斯 A', type: ss, server: neweur.upperlay.xyz, port: 630, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '俄罗斯 B', type: ss, server: neweur.upperlay.xyz, port: 631, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '[直连] 香港', type: ss, server: hktactivc-e.onlineqitv-ns.xyz, port: 563, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '香港动态 A', type: ss, server: cnexhk.nesx.xyz, port: 563, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '香港动态 B', type: ss, server: cnexhk.nesx.xyz, port: 564, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '香港动态 C', type: ss, server: cnexhk.nesx.xyz, port: 565, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '日本 A', type: ss, server: aisalayer-a.upperlay.xyz, port: 566, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '日本 B', type: ss, server: aisalayer-a.upperlay.xyz, port: 567, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '新加坡 A', type: ss, server: aisalayer-a.upperlay.xyz, port: 568, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '新加坡 B', type: ss, server: aisalayer-a.upperlay.xyz, port: 569, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '新加坡 C', type: ss, server: aisalayer-b.upperlay.xyz, port: 569, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '新加坡 D', type: ss, server: aisalayer-b.upperlay.xyz, port: 570, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '新加坡 E', type: ss, server: aisalayer-b.upperlay.xyz, port: 571, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 韩国, type: ss, server: aisalayer-a.upperlay.xyz, port: 570, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 台湾, type: ss, server: cntwlayer1.labexit.xyz, port: 571, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG A', type: ss, server: cmres.standpro.co, port: 564, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG B', type: ss, server: 2cnrelay2.initcloud.pro, port: 563, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG C', type: ss, server: shgez3.labexit.xyz, port: 569, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG D', type: ss, server: cnhkall.debugex.xyz, port: 562, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG E', type: ss, server: 2cnrelay2.initcloud.pro, port: 564, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG F', type: ss, server: inlayer7.standurls.co, port: 563, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG G', type: ss, server: inlayer7.standurls.co, port: 564, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG H', type: ss, server: cmres.standpro.co, port: 565, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG I', type: ss, server: inlayer7.standurls.co, port: 565, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG J', type: ss, server: cmlayer6.standurls.co, port: 562, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG K', type: ss, server: 3layer03.initcloud.pro, port: 562, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG L', type: ss, server: 3layer03.initcloud.pro, port: 563, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG M', type: ss, server: cnhkall.debugex.xyz, port: 563, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG N', type: ss, server: initest08.initcloud.pro, port: 563, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG O', type: ss, server: layercm05.initcloud.pro, port: 563, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG P', type: ss, server: layercm05.initcloud.pro, port: 564, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG Q', type: ss, server: cmlayer6.standurls.co, port: 563, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG R', type: ss, server: initest08.initcloud.pro, port: 564, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 'HKG S', type: ss, server: initest08.initcloud.pro, port: 565, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '美国 A', type: ss, server: usastand-1.upperlay.xyz, port: 565, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '美国 B', type: ss, server: usastand-1.upperlay.xyz, port: 566, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '美国 C', type: ss, server: usastand-1.upperlay.xyz, port: 567, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '美国 D', type: ss, server: usastand-1.upperlay.xyz, port: 568, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '美国 E', type: ss, server: usastand-1.upperlay.xyz, port: 569, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '美国 F', type: ss, server: usastand-2.upperlay.xyz, port: 564, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '美国 G', type: ss, server: usastand-2.upperlay.xyz, port: 565, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '美国 H', type: ss, server: usastand-2.upperlay.xyz, port: 566, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '美国 I', type: ss, server: usastand-2.upperlay.xyz, port: 567, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 B', type: ss, server: cntwlayer1.labexit.xyz, port: 572, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 C', type: ss, server: cntwlayer1.labexit.xyz, port: 573, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 D', type: ss, server: cntwlayer1.labexit.xyz, port: 574, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 E', type: ss, server: cntwlayer1.labexit.xyz, port: 575, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 F', type: ss, server: cntwlayer1.labexit.xyz, port: 576, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 H', type: ss, server: cntwlayer1.labexit.xyz, port: 578, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 I', type: ss, server: cncutw2.labexit.xyz, port: 570, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 J', type: ss, server: cncutw2.labexit.xyz, port: 571, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 K', type: ss, server: cncutw2.labexit.xyz, port: 572, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 L', type: ss, server: cncutw2.labexit.xyz, port: 573, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 M', type: ss, server: cncutw2.labexit.xyz, port: 574, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 N', type: ss, server: cncutw2.labexit.xyz, port: 575, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 O', type: ss, server: cncutw2.labexit.xyz, port: 576, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '台湾 P', type: ss, server: cncutw2.labexit.xyz, port: 577, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 加拿大, type: ss, server: neweur.upperlay.xyz, port: 570, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '英国 A', type: ss, server: neweur.upperlay.xyz, port: 634, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: '英国 B', type: ss, server: neweur.upperlay.xyz, port: 635, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 西班牙, type: ss, server: neweur.upperlay.xyz, port: 638, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 印度, type: ss, server: neweur.upperlay.xyz, port: 633, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 土耳其, type: ss, server: neweur.upperlay.xyz, port: 636, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 意大利, type: ss, server: neweur.upperlay.xyz, port: 637, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 荷兰, type: ss, server: neweur.upperlay.xyz, port: 639, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+    - { name: 德国, type: ss, server: neweur.upperlay.xyz, port: 640, cipher: aes-128-gcm, password: 2582d910-0d35-43b5-a1c2-65b1c4d79c48, udp: true }
+proxy-groups:
+    - { name: NCloud, type: select, proxies: [自动选择, 故障转移,'HK-Own', 'TW-Own', 'JP-Own', 'KR-Own', '剩余流量：2048 GB', 套餐到期：2025-11-15, '跳转域名{请勿连接}:nflink.xyz', '俄罗斯 A', '俄罗斯 B', '[直连] 香港', '香港动态 A', '香港动态 B', '香港动态 C', '日本 A', '日本 B', '新加坡 A', '新加坡 B', '新加坡 C', '新加坡 D', '新加坡 E', 韩国, 台湾, 'HKG A', 'HKG B', 'HKG C', 'HKG D', 'HKG E', 'HKG F', 'HKG G', 'HKG H', 'HKG I', 'HKG J', 'HKG K', 'HKG L', 'HKG M', 'HKG N', 'HKG O', 'HKG P', 'HKG Q', 'HKG R', 'HKG S', '美国 A', '美国 B', '美国 C', '美国 D', '美国 E', '美国 F', '美国 G', '美国 H', '美国 I', '台湾 B', '台湾 C', '台湾 D', '台湾 E', '台湾 F', '台湾 H', '台湾 I', '台湾 J', '台湾 K', '台湾 L', '台湾 M', '台湾 N', '台湾 O', '台湾 P', 加拿大, '英国 A', '英国 B', 西班牙, 印度, 土耳其, 意大利, 荷兰, 德国] }
+    - { name: 自动选择, type: url-test, proxies: [ 'HKG A', 'HKG B', 'HKG C', 'HKG D', 'HKG E', 'HKG F', 'HKG G', 'HKG H', 'HKG I', 'HKG J', 'HKG K', 'HKG L', 'HKG M', 'HKG N', 'HKG O', 'HKG P', 'HKG Q', 'HKG R', 'HKG S', '美国 A', '美国 B', '美国 C', '美国 D', '美国 E', '美国 F', '美国 G', '美国 H', '美国 I', '台湾 B', '台湾 C', '台湾 D', '台湾 E', '台湾 F', '台湾 H', '台湾 I', '台湾 J', '台湾 K', '台湾 L', '台湾 M', '台湾 N', '台湾 O', '台湾 P', 加拿大, '英国 A', '英国 B', 西班牙, 印度, 土耳其, 意大利, 荷兰, 德国], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['剩余流量：2048 GB', 套餐到期：2025-11-15, '跳转域名{请勿连接}:nflink.xyz', '俄罗斯 A', '俄罗斯 B', '[直连] 香港', '香港动态 A', '香港动态 B', '香港动态 C', '日本 A', '日本 B', '新加坡 A', '新加坡 B', '新加坡 C', '新加坡 D', '新加坡 E', 韩国, 台湾, 'HKG A', 'HKG B', 'HKG C', 'HKG D', 'HKG E', 'HKG F', 'HKG G', 'HKG H', 'HKG I', 'HKG J', 'HKG K', 'HKG L', 'HKG M', 'HKG N', 'HKG O', 'HKG P', 'HKG Q', 'HKG R', 'HKG S', '美国 A', '美国 B', '美国 C', '美国 D', '美国 E', '美国 F', '美国 G', '美国 H', '美国 I', '台湾 B', '台湾 C', '台湾 D', '台湾 E', '台湾 F', '台湾 H', '台湾 I', '台湾 J', '台湾 K', '台湾 L', '台湾 M', '台湾 N', '台湾 O', '台湾 P', 加拿大, '英国 A', '英国 B', 西班牙, 印度, 土耳其, 意大利, 荷兰, 德国], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: HK-Own, type: relay, proxies: [自动选择, HK-Mine]}
+    - { name: TW-Own, type: relay, proxies: [自动选择, TW-Mine]}
+    - { name: JP-Own, type: relay, proxies: [自动选择, JP-Mine]}
+    - { name: DE-Own, type: relay, proxies: [自动选择, DE-Mine]}
+    - { name: KR-Own, type: relay, proxies: [自动选择, KR-Mine]}
+rules:
+    - 'DOMAIN,zh.micro361.cloud,DIRECT'
+    - 'DOMAIN-SUFFIX,services.googleapis.cn,NCloud'
+    - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,NCloud'
+    - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
+    - 'DOMAIN,safebrowsing.googleapis.com,DIRECT'
+    - 'DOMAIN,developer.apple.com,NCloud'
+    - 'DOMAIN-SUFFIX,digicert.com,NCloud'
+    - 'DOMAIN,ocsp.apple.com,NCloud'
+    - 'DOMAIN,ocsp.comodoca.com,NCloud'
+    - 'DOMAIN,ocsp.usertrust.com,NCloud'
+    - 'DOMAIN,ocsp.sectigo.com,NCloud'
+    - 'DOMAIN,ocsp.verisign.net,NCloud'
+    - 'DOMAIN-SUFFIX,apple-dns.net,NCloud'
+    - 'DOMAIN,testflight.apple.com,NCloud'
+    - 'DOMAIN,sandbox.itunes.apple.com,NCloud'
+    - 'DOMAIN,itunes.apple.com,NCloud'
+    - 'DOMAIN-SUFFIX,apps.apple.com,NCloud'
+    - 'DOMAIN-SUFFIX,blobstore.apple.com,NCloud'
+    - 'DOMAIN,cvws.icloud-content.com,NCloud'
+    - 'DOMAIN-SUFFIX,mzstatic.com,DIRECT'
+    - 'DOMAIN-SUFFIX,itunes.apple.com,DIRECT'
+    - 'DOMAIN-SUFFIX,icloud.com,DIRECT'
+    - 'DOMAIN-SUFFIX,icloud-content.com,DIRECT'
+    - 'DOMAIN-SUFFIX,me.com,DIRECT'
+    - 'DOMAIN-SUFFIX,aaplimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,cdn20.com,DIRECT'
+    - 'DOMAIN-SUFFIX,cdn-apple.com,DIRECT'
+    - 'DOMAIN-SUFFIX,akadns.net,DIRECT'
+    - 'DOMAIN-SUFFIX,akamaiedge.net,DIRECT'
+    - 'DOMAIN-SUFFIX,edgekey.net,DIRECT'
+    - 'DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,mwcname.com,DIRECT'
+    - 'DOMAIN-SUFFIX,apple.com,DIRECT'
+    - 'DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT'
+    - 'DOMAIN-SUFFIX,apple-mapkit.com,DIRECT'
+    - 'DOMAIN-SUFFIX,126.com,DIRECT'
+    - 'DOMAIN-SUFFIX,126.net,DIRECT'
+    - 'DOMAIN-SUFFIX,127.net,DIRECT'
+    - 'DOMAIN-SUFFIX,163.com,DIRECT'
+    - 'DOMAIN-SUFFIX,360buyimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,36kr.com,DIRECT'
+    - 'DOMAIN-SUFFIX,acfun.tv,DIRECT'
+    - 'DOMAIN-SUFFIX,air-matters.com,DIRECT'
+    - 'DOMAIN-SUFFIX,aixifan.com,DIRECT'
+    - 'DOMAIN-KEYWORD,alicdn,DIRECT'
+    - 'DOMAIN-KEYWORD,alipay,DIRECT'
+    - 'DOMAIN-KEYWORD,taobao,DIRECT'
+    - 'DOMAIN-SUFFIX,amap.com,DIRECT'
+    - 'DOMAIN-SUFFIX,autonavi.com,DIRECT'
+    - 'DOMAIN-KEYWORD,baidu,DIRECT'
+    - 'DOMAIN-SUFFIX,bdimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,bdstatic.com,DIRECT'
+    - 'DOMAIN-SUFFIX,bilibili.com,DIRECT'
+    - 'DOMAIN-SUFFIX,bilivideo.com,DIRECT'
+    - 'DOMAIN-SUFFIX,caiyunapp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,clouddn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,cnbeta.com,DIRECT'
+    - 'DOMAIN-SUFFIX,cnbetacdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,cootekservice.com,DIRECT'
+    - 'DOMAIN-SUFFIX,csdn.net,DIRECT'
+    - 'DOMAIN-SUFFIX,ctrip.com,DIRECT'
+    - 'DOMAIN-SUFFIX,dgtle.com,DIRECT'
+    - 'DOMAIN-SUFFIX,dianping.com,DIRECT'
+    - 'DOMAIN-SUFFIX,douban.com,DIRECT'
+    - 'DOMAIN-SUFFIX,doubanio.com,DIRECT'
+    - 'DOMAIN-SUFFIX,duokan.com,DIRECT'
+    - 'DOMAIN-SUFFIX,easou.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ele.me,DIRECT'
+    - 'DOMAIN-SUFFIX,feng.com,DIRECT'
+    - 'DOMAIN-SUFFIX,fir.im,DIRECT'
+    - 'DOMAIN-SUFFIX,frdic.com,DIRECT'
+    - 'DOMAIN-SUFFIX,g-cores.com,DIRECT'
+    - 'DOMAIN-SUFFIX,godic.net,DIRECT'
+    - 'DOMAIN-SUFFIX,gtimg.com,DIRECT'
+    - 'DOMAIN,cdn.hockeyapp.net,DIRECT'
+    - 'DOMAIN-SUFFIX,hongxiu.com,DIRECT'
+    - 'DOMAIN-SUFFIX,hxcdn.net,DIRECT'
+    - 'DOMAIN-SUFFIX,iciba.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ifeng.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ifengimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ipip.net,DIRECT'
+    - 'DOMAIN-SUFFIX,iqiyi.com,DIRECT'
+    - 'DOMAIN-SUFFIX,jd.com,DIRECT'
+    - 'DOMAIN-SUFFIX,jianshu.com,DIRECT'
+    - 'DOMAIN-SUFFIX,knewone.com,DIRECT'
+    - 'DOMAIN-SUFFIX,le.com,DIRECT'
+    - 'DOMAIN-SUFFIX,lecloud.com,DIRECT'
+    - 'DOMAIN-SUFFIX,lemicp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,licdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,luoo.net,DIRECT'
+    - 'DOMAIN-SUFFIX,meituan.com,DIRECT'
+    - 'DOMAIN-SUFFIX,meituan.net,DIRECT'
+    - 'DOMAIN-SUFFIX,mi.com,DIRECT'
+    - 'DOMAIN-SUFFIX,miaopai.com,DIRECT'
+    - 'DOMAIN-SUFFIX,microsoft.com,DIRECT'
+    - 'DOMAIN-SUFFIX,microsoftonline.com,DIRECT'
+    - 'DOMAIN-SUFFIX,miui.com,DIRECT'
+    - 'DOMAIN-SUFFIX,miwifi.com,DIRECT'
+    - 'DOMAIN-SUFFIX,mob.com,DIRECT'
+    - 'DOMAIN-SUFFIX,netease.com,DIRECT'
+    - 'DOMAIN-SUFFIX,office.com,DIRECT'
+    - 'DOMAIN-SUFFIX,office365.com,DIRECT'
+    - 'DOMAIN-KEYWORD,officecdn,DIRECT'
+    - 'DOMAIN-SUFFIX,oschina.net,DIRECT'
+    - 'DOMAIN-SUFFIX,ppsimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,pstatp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qcloud.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qdaily.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qdmm.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qhimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qhres.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qidian.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qihucdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qiniu.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qiniucdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qiyipic.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qq.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qqurl.com,DIRECT'
+    - 'DOMAIN-SUFFIX,rarbg.to,DIRECT'
+    - 'DOMAIN-SUFFIX,ruguoapp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,segmentfault.com,DIRECT'
+    - 'DOMAIN-SUFFIX,sinaapp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,smzdm.com,DIRECT'
+    - 'DOMAIN-SUFFIX,snapdrop.net,DIRECT'
+    - 'DOMAIN-SUFFIX,sogou.com,DIRECT'
+    - 'DOMAIN-SUFFIX,sogoucdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,sohu.com,DIRECT'
+    - 'DOMAIN-SUFFIX,soku.com,DIRECT'
+    - 'DOMAIN-SUFFIX,speedtest.net,DIRECT'
+    - 'DOMAIN-SUFFIX,sspai.com,DIRECT'
+    - 'DOMAIN-SUFFIX,suning.com,DIRECT'
+    - 'DOMAIN-SUFFIX,taobao.com,DIRECT'
+    - 'DOMAIN-SUFFIX,tencent.com,DIRECT'
+    - 'DOMAIN-SUFFIX,tenpay.com,DIRECT'
+    - 'DOMAIN-SUFFIX,tianyancha.com,DIRECT'
+    - 'DOMAIN-SUFFIX,tmall.com,DIRECT'
+    - 'DOMAIN-SUFFIX,tudou.com,DIRECT'
+    - 'DOMAIN-SUFFIX,umetrip.com,DIRECT'
+    - 'DOMAIN-SUFFIX,upaiyun.com,DIRECT'
+    - 'DOMAIN-SUFFIX,upyun.com,DIRECT'
+    - 'DOMAIN-SUFFIX,veryzhun.com,DIRECT'
+    - 'DOMAIN-SUFFIX,weather.com,DIRECT'
+    - 'DOMAIN-SUFFIX,weibo.com,DIRECT'
+    - 'DOMAIN-SUFFIX,xiami.com,DIRECT'
+    - 'DOMAIN-SUFFIX,xiami.net,DIRECT'
+    - 'DOMAIN-SUFFIX,xiaomicp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ximalaya.com,DIRECT'
+    - 'DOMAIN-SUFFIX,xmcdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,xunlei.com,DIRECT'
+    - 'DOMAIN-SUFFIX,yhd.com,DIRECT'
+    - 'DOMAIN-SUFFIX,yihaodianimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,yinxiang.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ykimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,youdao.com,DIRECT'
+    - 'DOMAIN-SUFFIX,youku.com,DIRECT'
+    - 'DOMAIN-SUFFIX,zealer.com,DIRECT'
+    - 'DOMAIN-SUFFIX,zhihu.com,DIRECT'
+    - 'DOMAIN-SUFFIX,zhimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,zimuzu.tv,DIRECT'
+    - 'DOMAIN-SUFFIX,zoho.com,DIRECT'
+    - 'DOMAIN-KEYWORD,amazon,NCloud'
+    - 'DOMAIN-KEYWORD,google,NCloud'
+    - 'DOMAIN-KEYWORD,gmail,NCloud'
+    - 'DOMAIN-KEYWORD,youtube,NCloud'
+    - 'DOMAIN-KEYWORD,facebook,NCloud'
+    - 'DOMAIN-SUFFIX,fb.me,NCloud'
+    - 'DOMAIN-SUFFIX,fbcdn.net,NCloud'
+    - 'DOMAIN-KEYWORD,twitter,NCloud'
+    - 'DOMAIN-KEYWORD,instagram,NCloud'
+    - 'DOMAIN-KEYWORD,dropbox,NCloud'
+    - 'DOMAIN-SUFFIX,twimg.com,NCloud'
+    - 'DOMAIN-KEYWORD,blogspot,NCloud'
+    - 'DOMAIN-SUFFIX,youtu.be,NCloud'
+    - 'DOMAIN-KEYWORD,whatsapp,NCloud'
+    - 'DOMAIN-KEYWORD,admarvel,REJECT'
+    - 'DOMAIN-KEYWORD,admaster,REJECT'
+    - 'DOMAIN-KEYWORD,adsage,REJECT'
+    - 'DOMAIN-KEYWORD,adsmogo,REJECT'
+    - 'DOMAIN-KEYWORD,adsrvmedia,REJECT'
+    - 'DOMAIN-KEYWORD,adwords,REJECT'
+    - 'DOMAIN-KEYWORD,adservice,REJECT'
+    - 'DOMAIN-SUFFIX,appsflyer.com,REJECT'
+    - 'DOMAIN-KEYWORD,domob,REJECT'
+    - 'DOMAIN-SUFFIX,doubleclick.net,REJECT'
+    - 'DOMAIN-KEYWORD,duomeng,REJECT'
+    - 'DOMAIN-KEYWORD,dwtrack,REJECT'
+    - 'DOMAIN-KEYWORD,guanggao,REJECT'
+    - 'DOMAIN-KEYWORD,lianmeng,REJECT'
+    - 'DOMAIN-SUFFIX,mmstat.com,REJECT'
+    - 'DOMAIN-KEYWORD,mopub,REJECT'
+    - 'DOMAIN-KEYWORD,omgmta,REJECT'
+    - 'DOMAIN-KEYWORD,openx,REJECT'
+    - 'DOMAIN-KEYWORD,partnerad,REJECT'
+    - 'DOMAIN-KEYWORD,pingfore,REJECT'
+    - 'DOMAIN-KEYWORD,supersonicads,REJECT'
+    - 'DOMAIN-KEYWORD,uedas,REJECT'
+    - 'DOMAIN-KEYWORD,umeng,REJECT'
+    - 'DOMAIN-KEYWORD,usage,REJECT'
+    - 'DOMAIN-SUFFIX,vungle.com,REJECT'
+    - 'DOMAIN-KEYWORD,wlmonitor,REJECT'
+    - 'DOMAIN-KEYWORD,zjtoolbar,REJECT'
+    - 'DOMAIN-SUFFIX,9to5mac.com,NCloud'
+    - 'DOMAIN-SUFFIX,abpchina.org,NCloud'
+    - 'DOMAIN-SUFFIX,adblockplus.org,NCloud'
+    - 'DOMAIN-SUFFIX,adobe.com,NCloud'
+    - 'DOMAIN-SUFFIX,akamaized.net,NCloud'
+    - 'DOMAIN-SUFFIX,alfredapp.com,NCloud'
+    - 'DOMAIN-SUFFIX,amplitude.com,NCloud'
+    - 'DOMAIN-SUFFIX,ampproject.org,NCloud'
+    - 'DOMAIN-SUFFIX,android.com,NCloud'
+    - 'DOMAIN-SUFFIX,angularjs.org,NCloud'
+    - 'DOMAIN-SUFFIX,aolcdn.com,NCloud'
+    - 'DOMAIN-SUFFIX,apkpure.com,NCloud'
+    - 'DOMAIN-SUFFIX,appledaily.com,NCloud'
+    - 'DOMAIN-SUFFIX,appshopper.com,NCloud'
+    - 'DOMAIN-SUFFIX,appspot.com,NCloud'
+    - 'DOMAIN-SUFFIX,arcgis.com,NCloud'
+    - 'DOMAIN-SUFFIX,archive.org,NCloud'
+    - 'DOMAIN-SUFFIX,armorgames.com,NCloud'
+    - 'DOMAIN-SUFFIX,aspnetcdn.com,NCloud'
+    - 'DOMAIN-SUFFIX,att.com,NCloud'
+    - 'DOMAIN-SUFFIX,awsstatic.com,NCloud'
+    - 'DOMAIN-SUFFIX,azureedge.net,NCloud'
+    - 'DOMAIN-SUFFIX,azurewebsites.net,NCloud'
+    - 'DOMAIN-SUFFIX,bing.com,NCloud'
+    - 'DOMAIN-SUFFIX,bintray.com,NCloud'
+    - 'DOMAIN-SUFFIX,bit.com,NCloud'
+    - 'DOMAIN-SUFFIX,bit.ly,NCloud'
+    - 'DOMAIN-SUFFIX,bitbucket.org,NCloud'
+    - 'DOMAIN-SUFFIX,bjango.com,NCloud'
+    - 'DOMAIN-SUFFIX,bkrtx.com,NCloud'
+    - 'DOMAIN-SUFFIX,blog.com,NCloud'
+    - 'DOMAIN-SUFFIX,blogcdn.com,NCloud'
+    - 'DOMAIN-SUFFIX,blogger.com,NCloud'
+    - 'DOMAIN-SUFFIX,blogsmithmedia.com,NCloud'
+    - 'DOMAIN-SUFFIX,blogspot.com,NCloud'
+    - 'DOMAIN-SUFFIX,blogspot.hk,NCloud'
+    - 'DOMAIN-SUFFIX,bloomberg.com,NCloud'
+    - 'DOMAIN-SUFFIX,box.com,NCloud'
+    - 'DOMAIN-SUFFIX,box.net,NCloud'
+    - 'DOMAIN-SUFFIX,cachefly.net,NCloud'
+    - 'DOMAIN-SUFFIX,chromium.org,NCloud'
+    - 'DOMAIN-SUFFIX,cl.ly,NCloud'
+    - 'DOMAIN-SUFFIX,cloudflare.com,NCloud'
+    - 'DOMAIN-SUFFIX,cloudfront.net,NCloud'
+    - 'DOMAIN-SUFFIX,cloudmagic.com,NCloud'
+    - 'DOMAIN-SUFFIX,cmail19.com,NCloud'
+    - 'DOMAIN-SUFFIX,cnet.com,NCloud'
+    - 'DOMAIN-SUFFIX,cocoapods.org,NCloud'
+    - 'DOMAIN-SUFFIX,comodoca.com,NCloud'
+    - 'DOMAIN-SUFFIX,crashlytics.com,NCloud'
+    - 'DOMAIN-SUFFIX,culturedcode.com,NCloud'
+    - 'DOMAIN-SUFFIX,d.pr,NCloud'
+    - 'DOMAIN-SUFFIX,danilo.to,NCloud'
+    - 'DOMAIN-SUFFIX,dayone.me,NCloud'
+    - 'DOMAIN-SUFFIX,db.tt,NCloud'
+    - 'DOMAIN-SUFFIX,deskconnect.com,NCloud'
+    - 'DOMAIN-SUFFIX,disq.us,NCloud'
+    - 'DOMAIN-SUFFIX,disqus.com,NCloud'
+    - 'DOMAIN-SUFFIX,disquscdn.com,NCloud'
+    - 'DOMAIN-SUFFIX,dnsimple.com,NCloud'
+    - 'DOMAIN-SUFFIX,docker.com,NCloud'
+    - 'DOMAIN-SUFFIX,dribbble.com,NCloud'
+    - 'DOMAIN-SUFFIX,droplr.com,NCloud'
+    - 'DOMAIN-SUFFIX,duckduckgo.com,NCloud'
+    - 'DOMAIN-SUFFIX,dueapp.com,NCloud'
+    - 'DOMAIN-SUFFIX,dytt8.net,NCloud'
+    - 'DOMAIN-SUFFIX,edgecastcdn.net,NCloud'
+    - 'DOMAIN-SUFFIX,edgekey.net,NCloud'
+    - 'DOMAIN-SUFFIX,edgesuite.net,NCloud'
+    - 'DOMAIN-SUFFIX,engadget.com,NCloud'
+    - 'DOMAIN-SUFFIX,entrust.net,NCloud'
+    - 'DOMAIN-SUFFIX,eurekavpt.com,NCloud'
+    - 'DOMAIN-SUFFIX,evernote.com,NCloud'
+    - 'DOMAIN-SUFFIX,fabric.io,NCloud'
+    - 'DOMAIN-SUFFIX,fast.com,NCloud'
+    - 'DOMAIN-SUFFIX,fastly.net,NCloud'
+    - 'DOMAIN-SUFFIX,fc2.com,NCloud'
+    - 'DOMAIN-SUFFIX,feedburner.com,NCloud'
+    - 'DOMAIN-SUFFIX,feedly.com,NCloud'
+    - 'DOMAIN-SUFFIX,feedsportal.com,NCloud'
+    - 'DOMAIN-SUFFIX,fiftythree.com,NCloud'
+    - 'DOMAIN-SUFFIX,firebaseio.com,NCloud'
+    - 'DOMAIN-SUFFIX,flexibits.com,NCloud'
+    - 'DOMAIN-SUFFIX,flickr.com,NCloud'
+    - 'DOMAIN-SUFFIX,flipboard.com,NCloud'
+    - 'DOMAIN-SUFFIX,g.co,NCloud'
+    - 'DOMAIN-SUFFIX,gabia.net,NCloud'
+    - 'DOMAIN-SUFFIX,geni.us,NCloud'
+    - 'DOMAIN-SUFFIX,gfx.ms,NCloud'
+    - 'DOMAIN-SUFFIX,ggpht.com,NCloud'
+    - 'DOMAIN-SUFFIX,ghostnoteapp.com,NCloud'
+    - 'DOMAIN-SUFFIX,git.io,NCloud'
+    - 'DOMAIN-KEYWORD,github,NCloud'
+    - 'DOMAIN-SUFFIX,globalsign.com,NCloud'
+    - 'DOMAIN-SUFFIX,gmodules.com,NCloud'
+    - 'DOMAIN-SUFFIX,godaddy.com,NCloud'
+    - 'DOMAIN-SUFFIX,golang.org,NCloud'
+    - 'DOMAIN-SUFFIX,gongm.in,NCloud'
+    - 'DOMAIN-SUFFIX,goo.gl,NCloud'
+    - 'DOMAIN-SUFFIX,goodreaders.com,NCloud'
+    - 'DOMAIN-SUFFIX,goodreads.com,NCloud'
+    - 'DOMAIN-SUFFIX,gravatar.com,NCloud'
+    - 'DOMAIN-SUFFIX,gstatic.com,NCloud'
+    - 'DOMAIN-SUFFIX,gvt0.com,NCloud'
+    - 'DOMAIN-SUFFIX,hockeyapp.net,NCloud'
+    - 'DOMAIN-SUFFIX,hotmail.com,NCloud'
+    - 'DOMAIN-SUFFIX,icons8.com,NCloud'
+    - 'DOMAIN-SUFFIX,ifixit.com,NCloud'
+    - 'DOMAIN-SUFFIX,ift.tt,NCloud'
+    - 'DOMAIN-SUFFIX,ifttt.com,NCloud'
+    - 'DOMAIN-SUFFIX,iherb.com,NCloud'
+    - 'DOMAIN-SUFFIX,imageshack.us,NCloud'
+    - 'DOMAIN-SUFFIX,img.ly,NCloud'
+    - 'DOMAIN-SUFFIX,imgur.com,NCloud'
+    - 'DOMAIN-SUFFIX,imore.com,NCloud'
+    - 'DOMAIN-SUFFIX,instapaper.com,NCloud'
+    - 'DOMAIN-SUFFIX,ipn.li,NCloud'
+    - 'DOMAIN-SUFFIX,is.gd,NCloud'
+    - 'DOMAIN-SUFFIX,issuu.com,NCloud'
+    - 'DOMAIN-SUFFIX,itgonglun.com,NCloud'
+    - 'DOMAIN-SUFFIX,itun.es,NCloud'
+    - 'DOMAIN-SUFFIX,ixquick.com,NCloud'
+    - 'DOMAIN-SUFFIX,j.mp,NCloud'
+    - 'DOMAIN-SUFFIX,js.revsci.net,NCloud'
+    - 'DOMAIN-SUFFIX,jshint.com,NCloud'
+    - 'DOMAIN-SUFFIX,jtvnw.net,NCloud'
+    - 'DOMAIN-SUFFIX,justgetflux.com,NCloud'
+    - 'DOMAIN-SUFFIX,kat.cr,NCloud'
+    - 'DOMAIN-SUFFIX,klip.me,NCloud'
+    - 'DOMAIN-SUFFIX,libsyn.com,NCloud'
+    - 'DOMAIN-SUFFIX,linkedin.com,NCloud'
+    - 'DOMAIN-SUFFIX,line-apps.com,NCloud'
+    - 'DOMAIN-SUFFIX,linode.com,NCloud'
+    - 'DOMAIN-SUFFIX,lithium.com,NCloud'
+    - 'DOMAIN-SUFFIX,littlehj.com,NCloud'
+    - 'DOMAIN-SUFFIX,live.com,NCloud'
+    - 'DOMAIN-SUFFIX,live.net,NCloud'
+    - 'DOMAIN-SUFFIX,livefilestore.com,NCloud'
+    - 'DOMAIN-SUFFIX,llnwd.net,NCloud'
+    - 'DOMAIN-SUFFIX,macid.co,NCloud'
+    - 'DOMAIN-SUFFIX,macromedia.com,NCloud'
+    - 'DOMAIN-SUFFIX,macrumors.com,NCloud'
+    - 'DOMAIN-SUFFIX,mashable.com,NCloud'
+    - 'DOMAIN-SUFFIX,mathjax.org,NCloud'
+    - 'DOMAIN-SUFFIX,medium.com,NCloud'
+    - 'DOMAIN-SUFFIX,mega.co.nz,NCloud'
+    - 'DOMAIN-SUFFIX,mega.nz,NCloud'
+    - 'DOMAIN-SUFFIX,megaupload.com,NCloud'
+    - 'DOMAIN-SUFFIX,microsofttranslator.com,NCloud'
+    - 'DOMAIN-SUFFIX,mindnode.com,NCloud'
+    - 'DOMAIN-SUFFIX,mobile01.com,NCloud'
+    - 'DOMAIN-SUFFIX,modmyi.com,NCloud'
+    - 'DOMAIN-SUFFIX,msedge.net,NCloud'
+    - 'DOMAIN-SUFFIX,myfontastic.com,NCloud'
+    - 'DOMAIN-SUFFIX,name.com,NCloud'
+    - 'DOMAIN-SUFFIX,nextmedia.com,NCloud'
+    - 'DOMAIN-SUFFIX,nsstatic.net,NCloud'
+    - 'DOMAIN-SUFFIX,nssurge.com,NCloud'
+    - 'DOMAIN-SUFFIX,nyt.com,NCloud'
+    - 'DOMAIN-SUFFIX,nytimes.com,NCloud'
+    - 'DOMAIN-SUFFIX,omnigroup.com,NCloud'
+    - 'DOMAIN-SUFFIX,onedrive.com,NCloud'
+    - 'DOMAIN-SUFFIX,onenote.com,NCloud'
+    - 'DOMAIN-SUFFIX,ooyala.com,NCloud'
+    - 'DOMAIN-SUFFIX,openvpn.net,NCloud'
+    - 'DOMAIN-SUFFIX,openwrt.org,NCloud'
+    - 'DOMAIN-SUFFIX,orkut.com,NCloud'
+    - 'DOMAIN-SUFFIX,osxdaily.com,NCloud'
+    - 'DOMAIN-SUFFIX,outlook.com,NCloud'
+    - 'DOMAIN-SUFFIX,ow.ly,NCloud'
+    - 'DOMAIN-SUFFIX,paddleapi.com,NCloud'
+    - 'DOMAIN-SUFFIX,parallels.com,NCloud'
+    - 'DOMAIN-SUFFIX,parse.com,NCloud'
+    - 'DOMAIN-SUFFIX,pdfexpert.com,NCloud'
+    - 'DOMAIN-SUFFIX,periscope.tv,NCloud'
+    - 'DOMAIN-SUFFIX,pinboard.in,NCloud'
+    - 'DOMAIN-SUFFIX,pinterest.com,NCloud'
+    - 'DOMAIN-SUFFIX,pixelmator.com,NCloud'
+    - 'DOMAIN-SUFFIX,pixiv.net,NCloud'
+    - 'DOMAIN-SUFFIX,playpcesor.com,NCloud'
+    - 'DOMAIN-SUFFIX,playstation.com,NCloud'
+    - 'DOMAIN-SUFFIX,playstation.com.hk,NCloud'
+    - 'DOMAIN-SUFFIX,playstation.net,NCloud'
+    - 'DOMAIN-SUFFIX,playstationnetwork.com,NCloud'
+    - 'DOMAIN-SUFFIX,pushwoosh.com,NCloud'
+    - 'DOMAIN-SUFFIX,rime.im,NCloud'
+    - 'DOMAIN-SUFFIX,servebom.com,NCloud'
+    - 'DOMAIN-SUFFIX,sfx.ms,NCloud'
+    - 'DOMAIN-SUFFIX,shadowsocks.org,NCloud'
+    - 'DOMAIN-SUFFIX,sharethis.com,NCloud'
+    - 'DOMAIN-SUFFIX,shazam.com,NCloud'
+    - 'DOMAIN-SUFFIX,skype.com,NCloud'
+    - 'DOMAIN-SUFFIX,smartdnsNCloud.com,NCloud'
+    - 'DOMAIN-SUFFIX,smartmailcloud.com,NCloud'
+    - 'DOMAIN-SUFFIX,sndcdn.com,NCloud'
+    - 'DOMAIN-SUFFIX,sony.com,NCloud'
+    - 'DOMAIN-SUFFIX,soundcloud.com,NCloud'
+    - 'DOMAIN-SUFFIX,sourceforge.net,NCloud'
+    - 'DOMAIN-SUFFIX,spotify.com,NCloud'
+    - 'DOMAIN-SUFFIX,squarespace.com,NCloud'
+    - 'DOMAIN-SUFFIX,sstatic.net,NCloud'
+    - 'DOMAIN-SUFFIX,st.luluku.pw,NCloud'
+    - 'DOMAIN-SUFFIX,stackoverflow.com,NCloud'
+    - 'DOMAIN-SUFFIX,startpage.com,NCloud'
+    - 'DOMAIN-SUFFIX,staticflickr.com,NCloud'
+    - 'DOMAIN-SUFFIX,steamcommunity.com,NCloud'
+    - 'DOMAIN-SUFFIX,symauth.com,NCloud'
+    - 'DOMAIN-SUFFIX,symcb.com,NCloud'
+    - 'DOMAIN-SUFFIX,symcd.com,NCloud'
+    - 'DOMAIN-SUFFIX,tapbots.com,NCloud'
+    - 'DOMAIN-SUFFIX,tapbots.net,NCloud'
+    - 'DOMAIN-SUFFIX,tdesktop.com,NCloud'
+    - 'DOMAIN-SUFFIX,techcrunch.com,NCloud'
+    - 'DOMAIN-SUFFIX,techsmith.com,NCloud'
+    - 'DOMAIN-SUFFIX,thepiratebay.org,NCloud'
+    - 'DOMAIN-SUFFIX,theverge.com,NCloud'
+    - 'DOMAIN-SUFFIX,time.com,NCloud'
+    - 'DOMAIN-SUFFIX,timeinc.net,NCloud'
+    - 'DOMAIN-SUFFIX,tiny.cc,NCloud'
+    - 'DOMAIN-SUFFIX,tinypic.com,NCloud'
+    - 'DOMAIN-SUFFIX,tmblr.co,NCloud'
+    - 'DOMAIN-SUFFIX,todoist.com,NCloud'
+    - 'DOMAIN-SUFFIX,trello.com,NCloud'
+    - 'DOMAIN-SUFFIX,trustasiassl.com,NCloud'
+    - 'DOMAIN-SUFFIX,tumblr.co,NCloud'
+    - 'DOMAIN-SUFFIX,tumblr.com,NCloud'
+    - 'DOMAIN-SUFFIX,tweetdeck.com,NCloud'
+    - 'DOMAIN-SUFFIX,tweetmarker.net,NCloud'
+    - 'DOMAIN-SUFFIX,twitch.tv,NCloud'
+    - 'DOMAIN-SUFFIX,txmblr.com,NCloud'
+    - 'DOMAIN-SUFFIX,typekit.net,NCloud'
+    - 'DOMAIN-SUFFIX,ubertags.com,NCloud'
+    - 'DOMAIN-SUFFIX,ublock.org,NCloud'
+    - 'DOMAIN-SUFFIX,ubnt.com,NCloud'
+    - 'DOMAIN-SUFFIX,ulyssesapp.com,NCloud'
+    - 'DOMAIN-SUFFIX,urchin.com,NCloud'
+    - 'DOMAIN-SUFFIX,usertrust.com,NCloud'
+    - 'DOMAIN-SUFFIX,v.gd,NCloud'
+    - 'DOMAIN-SUFFIX,v2ex.com,NCloud'
+    - 'DOMAIN-SUFFIX,vimeo.com,NCloud'
+    - 'DOMAIN-SUFFIX,vimeocdn.com,NCloud'
+    - 'DOMAIN-SUFFIX,vine.co,NCloud'
+    - 'DOMAIN-SUFFIX,vivaldi.com,NCloud'
+    - 'DOMAIN-SUFFIX,vox-cdn.com,NCloud'
+    - 'DOMAIN-SUFFIX,vsco.co,NCloud'
+    - 'DOMAIN-SUFFIX,vultr.com,NCloud'
+    - 'DOMAIN-SUFFIX,w.org,NCloud'
+    - 'DOMAIN-SUFFIX,w3schools.com,NCloud'
+    - 'DOMAIN-SUFFIX,webtype.com,NCloud'
+    - 'DOMAIN-SUFFIX,wikiwand.com,NCloud'
+    - 'DOMAIN-SUFFIX,wikileaks.org,NCloud'
+    - 'DOMAIN-SUFFIX,wikimedia.org,NCloud'
+    - 'DOMAIN-SUFFIX,wikipedia.com,NCloud'
+    - 'DOMAIN-SUFFIX,wikipedia.org,NCloud'
+    - 'DOMAIN-SUFFIX,windows.com,NCloud'
+    - 'DOMAIN-SUFFIX,windows.net,NCloud'
+    - 'DOMAIN-SUFFIX,wire.com,NCloud'
+    - 'DOMAIN-SUFFIX,wordpress.com,NCloud'
+    - 'DOMAIN-SUFFIX,workflowy.com,NCloud'
+    - 'DOMAIN-SUFFIX,wp.com,NCloud'
+    - 'DOMAIN-SUFFIX,wsj.com,NCloud'
+    - 'DOMAIN-SUFFIX,wsj.net,NCloud'
+    - 'DOMAIN-SUFFIX,xda-developers.com,NCloud'
+    - 'DOMAIN-SUFFIX,xeeno.com,NCloud'
+    - 'DOMAIN-SUFFIX,xiti.com,NCloud'
+    - 'DOMAIN-SUFFIX,yahoo.com,NCloud'
+    - 'DOMAIN-SUFFIX,yimg.com,NCloud'
+    - 'DOMAIN-SUFFIX,ying.com,NCloud'
+    - 'DOMAIN-SUFFIX,yoyo.org,NCloud'
+    - 'DOMAIN-SUFFIX,ytimg.com,NCloud'
+    - 'DOMAIN-SUFFIX,telegra.ph,NCloud'
+    - 'DOMAIN-SUFFIX,telegram.org,NCloud'
+    - 'IP-CIDR,91.108.4.0/22,NCloud,no-resolve'
+    - 'IP-CIDR,91.108.8.0/21,NCloud,no-resolve'
+    - 'IP-CIDR,91.108.16.0/22,NCloud,no-resolve'
+    - 'IP-CIDR,91.108.56.0/22,NCloud,no-resolve'
+    - 'IP-CIDR,149.154.160.0/20,NCloud,no-resolve'
+    - 'IP-CIDR6,2001:67c:4e8::/48,NCloud,no-resolve'
+    - 'IP-CIDR6,2001:b28:f23d::/48,NCloud,no-resolve'
+    - 'IP-CIDR6,2001:b28:f23f::/48,NCloud,no-resolve'
+    - 'IP-CIDR,120.232.181.162/32,NCloud,no-resolve'
+    - 'IP-CIDR,120.241.147.226/32,NCloud,no-resolve'
+    - 'IP-CIDR,120.253.253.226/32,NCloud,no-resolve'
+    - 'IP-CIDR,120.253.255.162/32,NCloud,no-resolve'
+    - 'IP-CIDR,120.253.255.34/32,NCloud,no-resolve'
+    - 'IP-CIDR,120.253.255.98/32,NCloud,no-resolve'
+    - 'IP-CIDR,180.163.150.162/32,NCloud,no-resolve'
+    - 'IP-CIDR,180.163.150.34/32,NCloud,no-resolve'
+    - 'IP-CIDR,180.163.151.162/32,NCloud,no-resolve'
+    - 'IP-CIDR,180.163.151.34/32,NCloud,no-resolve'
+    - 'IP-CIDR,203.208.39.0/24,NCloud,no-resolve'
+    - 'IP-CIDR,203.208.40.0/24,NCloud,no-resolve'
+    - 'IP-CIDR,203.208.41.0/24,NCloud,no-resolve'
+    - 'IP-CIDR,203.208.43.0/24,NCloud,no-resolve'
+    - 'IP-CIDR,203.208.50.0/24,NCloud,no-resolve'
+    - 'IP-CIDR,220.181.174.162/32,NCloud,no-resolve'
+    - 'IP-CIDR,220.181.174.226/32,NCloud,no-resolve'
+    - 'IP-CIDR,220.181.174.34/32,NCloud,no-resolve'
+    - 'DOMAIN,injections.adguard.org,DIRECT'
+    - 'DOMAIN,local.adguard.org,DIRECT'
+    - 'DOMAIN-SUFFIX,local,DIRECT'
+    - 'IP-CIDR,127.0.0.0/8,DIRECT'
+    - 'IP-CIDR,172.16.0.0/12,DIRECT'
+    - 'IP-CIDR,192.168.0.0/16,DIRECT'
+    - 'IP-CIDR,10.0.0.0/8,DIRECT'
+    - 'IP-CIDR,17.0.0.0/8,DIRECT'
+    - 'IP-CIDR,100.64.0.0/10,DIRECT'
+    - 'IP-CIDR,224.0.0.0/4,DIRECT'
+    - 'IP-CIDR6,fe80::/10,DIRECT'
+    - 'DOMAIN-SUFFIX,cn,DIRECT'
+    - 'DOMAIN-KEYWORD,-cn,DIRECT'
+    - 'GEOIP,CN,DIRECT'
+    - 'MATCH,NCloud'
