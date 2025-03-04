@@ -18,7 +18,7 @@ proxies:
     - {name: HK-Mine, server: 38.22.93.146, port: 34566, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
     - {"type":"vmess","name":"US-ws","ws-opts":{"path":"/83047753-da2b-44a6-a1bd-89792e510c14","headers":{"host":"hudius.0721.in"}},"server":"hudius.0721.in","port":"443","uuid":"83047753-da2b-44a6-a1bd-89792e510c14","alterId":"0","cipher":"auto","network":"ws","tls":true, "udp":true}
     - {name: TW-Mine, server: lalahinet.0721.in, port: 49806, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
-    - {name: JP-Mine, server: 43.165.131.178, port: 52644, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
+    - {name: JP-Mine, server: 5.253.41.81, port: 44730, type: vmess, uuid: 09aadabe-e6b6-4e7d-b8e5-147491d80431, alterId: 0, cipher: auto, tls: false, udp: true}
     - {name: US-Mine, server: 154.26.209.213, port: 34378, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
     - {name: DE-Mine, server: 213.199.51.149, port: 27142, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
     - {name: KR-Mine, server: kr.huafei888.site, port: 52377, type: vmess, uuid: a9ccc529-b903-45de-96fd-9843faac3966, alterId: 0, cipher: auto, tls: false, udp: true}
